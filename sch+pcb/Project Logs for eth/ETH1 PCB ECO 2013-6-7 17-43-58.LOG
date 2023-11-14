@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=CS Pin=U3-45
+Added Pin To Net: NetName=NetC1_1 Pin=P2-7
+Added Pin To Net: NetName=CS Pin=U3-25
+Change Net Name : Old Net Name=NetC1_1 New Net Name=TCT
+Added Room: Name=stm32+enc28

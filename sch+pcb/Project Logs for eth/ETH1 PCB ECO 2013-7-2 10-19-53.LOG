@@ -1,0 +1,11 @@
+Change Component Comment : Designator=R10 Old Comment=1K New Comment=2K
+Change Component Comment : Designator=R6 Old Comment=3K New Comment=3.3K
+Added Pin To Net: NetName=VCC3P3 Pin=C2-1
+Added Pin To Net: NetName=VCC3P3 Pin=C3-1
+Added Pin To Net: NetName=VCC3P3 Pin=L2-2
+Added Pin To Net: NetName=VCC3P3 Pin=LED3-1
+Added Pin To Net: NetName=VCC3P3 Pin=LED4-1
+Added Pin To Net: NetName=VCC3P3 Pin=R6-2
+Added Pin To Net: NetName=VCC3P3 Pin=R9-2
+Change Net Name : Old Net Name=VCC3P3 New Net Name=+5
+Added Room: Name=stm32+enc28

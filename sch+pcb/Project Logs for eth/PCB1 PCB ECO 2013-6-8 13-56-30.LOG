@@ -1,0 +1,68 @@
+Removed Pin From Net: NetName=TPOUT+1 Pin=J3-1
+Removed Pin From Net: NetName=TPOUT-1 Pin=J3-2
+Removed Pin From Net: NetName=TPIN+1 Pin=J3-3
+Removed Pin From Net: NetName=TCT1 Pin=J3-4
+Removed Pin From Net: NetName=TPIN-1 Pin=J3-6
+Removed Pin From Net: NetName=LEDA1 Pin=J3-9
+Removed Pin From Net: NetName=GND Pin=J3-10
+Removed Pin From Net: NetName=GND Pin=J3-11
+Removed Pin From Net: NetName=LEDB1 Pin=J3-12
+Removed Pin From Net: NetName=GND Pin=J3-13
+Removed Pin From Net: NetName=GND Pin=J3-13
+Removed Member From Class: ClassName=Sheet1 Member=J3
+Added Component: Designator=C11(C1)
+Added Component: Designator=C12(C1)
+Added Component: Designator=C13(0805)
+Added Component: Designator=C14(0805)
+Added Component: Designator=JHR(SMD-16B)
+Added Component: Designator=LED1(LED0805)
+Added Component: Designator=LED2(LED0805)
+Added Component: Designator=RJ45(RJ45)
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=TCT1 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=TPOUT-1 Pin=JHR-13
+Added Pin To Net: NetName=TCT1 Pin=JHR-15
+Added Pin To Net: NetName=TPOUT+1 Pin=JHR-16
+Added Pin To Net: NetName=LEDA1 Pin=LED1-1
+Added Pin To Net: NetName=GND Pin=LED1-2
+Added Pin To Net: NetName=LEDB1 Pin=LED2-1
+Added Pin To Net: NetName=GND Pin=LED2-2
+Added Pin To Net: NetName=GND Pin=RJ45-9
+Added Pin To Net: NetName=GND Pin=RJ45-10
+Added Pin To Net: NetName=ERX+ Pin=JHR-6
+Added Pin To Net: NetName=ERX+ Pin=RJ45-3
+Added Net: Name=ERX+
+Added Pin To Net: NetName=ERX- Pin=JHR-8
+Added Pin To Net: NetName=ERX- Pin=RJ45-6
+Added Net: Name=ERX-
+Added Pin To Net: NetName=ETX+ Pin=JHR-1
+Added Pin To Net: NetName=ETX+ Pin=RJ45-1
+Added Net: Name=ETX+
+Added Pin To Net: NetName=ETX- Pin=JHR-3
+Added Pin To Net: NetName=ETX- Pin=RJ45-2
+Added Net: Name=ETX-
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_1 Pin=JHR-2
+Added Net: Name=NetC11_1
+Added Pin To Net: NetName=NetC12_1 Pin=C12-1
+Added Pin To Net: NetName=NetC12_1 Pin=JHR-7
+Added Net: Name=NetC12_1
+Added Pin To Net: NetName=NetC13_2 Pin=C13-2
+Added Pin To Net: NetName=NetC13_2 Pin=JHR-10
+Added Net: Name=NetC13_2
+Added Pin To Net: NetName=TPIN+ Pin=JHR-11
+Added Net: Name=TPIN+
+Added Pin To Net: NetName=TPIN- Pin=JHR-9
+Added Net: Name=TPIN-
+Added Member To Class: ClassName=Sheet1 Member=Component C11 103
+Added Member To Class: ClassName=Sheet1 Member=Component C12 103
+Added Member To Class: ClassName=Sheet1 Member=Component C13 103
+Added Member To Class: ClassName=Sheet1 Member=Component C14 103
+Added Member To Class: ClassName=Sheet1 Member=Component JHR 
+Added Member To Class: ClassName=Sheet1 Member=Component LED1 RED
+Added Member To Class: ClassName=Sheet1 Member=Component LED2 RED
+Added Member To Class: ClassName=Sheet1 Member=Component RJ45 CON10
+Added Room: Name=Sheet1

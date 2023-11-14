@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=RST Pin=U3-42
+Added Pin To Net: NetName=RST Pin=U3-29
+Added Room: Name=stm32+enc28

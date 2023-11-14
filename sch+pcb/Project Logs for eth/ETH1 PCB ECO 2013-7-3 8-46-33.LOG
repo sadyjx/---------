@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=PA11 Pin=R1-1
+Removed Pin From Net: NetName=LED_TEST Pin=U3-33
+Added Pin To Net: NetName=PB8 Pin=R1-1
+Added Pin To Net: NetName=LED_TEST Pin=U3-46
+Added Room: Name=stm32+enc28

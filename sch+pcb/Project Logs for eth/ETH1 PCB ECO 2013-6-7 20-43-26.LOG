@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=PB11 Pin=R27-2
+Removed Pin From Net: NetName=PB10 Pin=R28-2
+Added Pin To Net: NetName=PB10 Pin=R27-2
+Added Pin To Net: NetName=PB11 Pin=R28-2
+Added Room: Name=stm32+enc28

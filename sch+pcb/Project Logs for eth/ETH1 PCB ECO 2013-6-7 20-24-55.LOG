@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=PC13 Pin=R19-2
+Removed Pin From Net: NetName=PA0 Pin=R22-2
+Removed Pin From Net: NetName=PA1 Pin=R23-2
+Removed Pin From Net: NetName=PA12 Pin=R24-2
+Removed Pin From Net: NetName=PA11 Pin=R25-2
+Added Pin To Net: NetName=PA13 Pin=R19-2
+Added Pin To Net: NetName=PA13 Pin=U3-34
+Added Net: Name=PA13
+Added Pin To Net: NetName=PA14 Pin=R22-2
+Added Pin To Net: NetName=PA14 Pin=U3-37
+Added Net: Name=PA14
+Added Pin To Net: NetName=PA15 Pin=R23-2
+Added Pin To Net: NetName=PA15 Pin=U3-38
+Added Net: Name=PA15
+Added Pin To Net: NetName=PB3 Pin=R24-2
+Added Net: Name=PB3
+Added Pin To Net: NetName=PB4 Pin=R25-2
+Added Pin To Net: NetName=PB4 Pin=U3-40
+Added Net: Name=PB4
+Added Pin To Net: NetName=PB6 Pin=U3-42
+Added Net: Name=PB6
+Added Pin To Net: NetName=PB8 Pin=U3-45
+Added Net: Name=PB8
+Added Room: Name=stm32+enc28

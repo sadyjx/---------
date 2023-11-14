@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=+5 Pin=LED3-1
+Removed Pin From Net: NetName=GND Pin=R11-1
+Change Component Footprint: Designator=LED3 Old Footprint=0805 New Footprint=LED0805
+Added Pin To Net: NetName=GND Pin=LED3-2
+Added Pin To Net: NetName=+5 Pin=R11-2
+Added Pin To Net: NetName=NetLED3_1 Pin=LED3-1
+Added Pin To Net: NetName=NetLED3_1 Pin=R11-1
+Added Net: Name=NetLED3_1
+Added Room: Name=stm32+enc28

@@ -1,0 +1,31 @@
+Protel Design System Design Rule Check
+PCB File : C:\Documents and Settings\x\×ÀÃæ\6.7\project\sch+pcb\PCB1.PcbDoc
+Date     : 2013-6-8
+Time     : 15:04:38
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=12mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=50mil) (Preferred=15mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint: Pad RJ45-0(-1634.331mil,1029.527mil)  Multi-Layer
+   Violation between Hole Size Constraint: Pad RJ45-0(-1634.331mil,576.772mil)  Multi-Layer
+Rule Violations :2
+
+
+Violations Detected : 2
+Time Elapsed        : 00:00:00

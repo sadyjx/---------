@@ -1,0 +1,5 @@
+Added Component: Designator=C3(SW-06)
+Added Pin To Net: NetName=+5 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Member To Class: ClassName=stm32+enc28 Member=Component C3 6V/470u(8)
+Added Room: Name=stm32+enc28

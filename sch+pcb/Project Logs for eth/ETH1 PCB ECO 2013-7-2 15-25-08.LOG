@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=C6 Old Footprint=SW-06 New Footprint=CAP 10uF/16V
+Change Component Footprint: Designator=C5 Old Footprint=SW-06 New Footprint=CAP 22uF/25V
+Added Pin To Net: NetName=NetC10_1 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Room: Name=stm32+enc28

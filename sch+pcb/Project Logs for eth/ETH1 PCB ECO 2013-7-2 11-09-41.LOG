@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=Y1 Old Footprint=XTAL_24M New Footprint=XTAL_US
+Added Room: Name=stm32+enc28

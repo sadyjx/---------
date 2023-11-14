@@ -1,0 +1,37 @@
+Field=Comment~String~Comment~86|Field=Description~String~Description~27|Field=Designator~String~Designator~161|Field=Footprint~String~Footprint~78|Field=LibRef~String~LibRef~80|Field=Quantity~Integer~Quantity~100|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~eth.PrjPcb|ReportField=ProjectFullPath~C:\Documents and Settings\x\桌面\6.7\复件 (3) 实验52 ENC28J60网络模块实验1\sch+pcb\eth.PrjPcb|ReportField=Title~Bill of Materials For Project [eth.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~57|ReportField=ReportTime~8:42:46|ReportField=ReportDate~2013-7-8|ReportField=ReportDateTime~2013-7-8 8:42:46|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=CurrentDate~2013-7-8|ReportField=CurrentTime~8:42:01|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Documents and Settings\x\桌面\6.7\复件 (3) 实验52 ENC28J60网络模块实验1\sch+pcb\stm32+enc28.sch|ReportField=DocumentName~stm32+enc28.sch|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2013-7-3|ReportField=Organization~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~0|ReportField=SheetTotal~0|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~eth.PrjPcb|ReportField=DataSourceFullPath~C:\Documents and Settings\x\桌面\6.7\复件 (3) 实验52 ENC28J60网络模块实验1\sch+pcb\eth.PrjPcb
+0.01uF|Capacitor|C1, C4|0805|CAP|2
+102||C2|0805|CAP|1
+6V/470u(8)||C3|SW-06|ELECTRO1|1
+25V/22u(6)||C5|CAP 22uF/25V|ELECTRO1|1
+10uF|Capacitor|C6|CAP 10uF/16V|CAP|1
+30P|Capacitor|C7, C8|0805|CAP|2
+103||C9, C10|C1|CAP|2
+0.1UF|Capacitor|C11, C12, C13|0805|CAP|3
+20P|Capacitor|C14, C15|0805|CAP|2
+104||C16, C17|0805|CAP|2
+4004||D1|SMD-D1|DIODE|1
+SS12||D2|SMD-D1|DIODE|1
+2.0*10|Connector|J1|J2.0-2*10|CON10|1
+|Connector|JHR1|SMD-16B|CON16|1
+10UH||L1|0805|RES1|1
+100u||L2|55|L-1|1
+RED|Yellow LED|LED1|LED0805|LED85YEL|1
+YELLOW|Yellow LED|LED2|LED0805|LED85YEL|1
+红色||LED3|LED0805|LED|1
+2N5551||Q1|SMD-Q1|NPN|1
+2.7K||R1, R2, R20|0805|RES2|3
+50R||R3, R4|0805|RES1|2
+1k||R5, R7, R8, R9|0805|RES1, RES2|4
+3.3K||R6|0805|RES2|1
+2K||R10|0805|RES2|1
+3K||R11|0805|RES2|1
+100||R15|0805|RES2|1
+100K||R16, R21, R22, R27|0805|RES2|4
+220||R17, R18, R23, R24, R25, R26|0805|RES2|6
+10K||R19|0805|RES2|1
+CON10|Connector|RJ1|RJ45|CON10|1
+LM2596S-ADJ||U1|44|LM2596|1
+ENC28J60||U2|SOP-28|Component_1|1
+STM32||U3|LQFP-48|Component_1|1
+25MHZ|Crystal Oscillator|Y1|XTAL_US|XTAL|1
+8MHZ|Crystal Oscillator|Y2|XTAL_US|XTAL|1

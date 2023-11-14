@@ -1,0 +1,95 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (Target 1), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(Source Group 1),0,0,0
+GRPOPT 2,(USER),1,0,0
+GRPOPT 3,(SYSTEM),0,0,0
+GRPOPT 4,(HARDWARE),0,0,0
+GRPOPT 5,(USMART),1,0,0
+GRPOPT 6,(uIP-1.0),1,0,0
+GRPOPT 7,(uIP-APP),1,0,0
+
+OPTFFF 1,1,2,738197504,0,0,0,0,<.\startup_stm32f10x_hd.s><startup_stm32f10x_hd.s> 
+OPTFFF 2,2,1,587202560,0,91,113,0,<.\test.c><test.c> { 44,0,0,0,2,0,0,0,3,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,225,255,255,255,38,0,0,0,240,255,255,255,198,3,0,0,165,2,0,0 }
+OPTFFF 3,3,1,0,0,0,0,0,<..\SYSTEM\delay\delay.c><delay.c> 
+OPTFFF 3,4,1,0,0,0,0,0,<..\SYSTEM\sys\sys.c><sys.c> 
+OPTFFF 3,5,1,268435456,0,0,0,0,<..\SYSTEM\usart\usart.c><usart.c> 
+OPTFFF 4,6,1,83886080,0,0,0,0,<..\HARDWARE\LED\led.c><led.c> 
+OPTFFF 4,7,1,184549376,0,0,0,0,<..\HARDWARE\BEEP\beep.c><beep.c> 
+OPTFFF 4,8,1,0,0,0,0,0,<..\HARDWARE\KEY\key.c><key.c> 
+OPTFFF 4,9,1,922746880,0,0,0,0,<..\HARDWARE\EXTI\exti.c><exti.c> 
+OPTFFF 4,10,1,0,0,0,0,0,<..\HARDWARE\WDG\wdg.c><wdg.c> 
+OPTFFF 4,11,1,0,0,0,0,0,<..\HARDWARE\TIMER\timerx.c><timerx.c> 
+OPTFFF 4,12,1,0,0,0,0,0,<..\HARDWARE\TPAD\tpad.c><tpad.c> 
+OPTFFF 4,13,1,0,0,0,0,0,<..\HARDWARE\OLED\oled.c><oled.c> 
+OPTFFF 4,14,1,536870912,0,0,0,0,<..\HARDWARE\LCD\ILI93xx.c><ILI93xx.c> 
+OPTFFF 4,15,1,83886080,0,0,0,0,<..\HARDWARE\RTC\rtc.c><rtc.c> 
+OPTFFF 4,16,1,0,0,0,0,0,<..\HARDWARE\WKUP\wkup.c><wkup.c> 
+OPTFFF 4,17,1,67108864,0,0,0,0,<..\HARDWARE\ADC\adc.c><adc.c> 
+OPTFFF 4,18,1,0,0,0,0,0,<..\HARDWARE\DAC\dac.c><dac.c> 
+OPTFFF 4,19,1,0,0,0,0,0,<..\HARDWARE\DMA\dma.c><dma.c> 
+OPTFFF 4,20,1,201326592,0,0,0,0,<..\HARDWARE\24CXX\myiic.c><myiic.c> 
+OPTFFF 4,21,1,184549376,0,0,0,0,<..\HARDWARE\24CXX\24cxx.c><24cxx.c> 
+OPTFFF 4,22,1,0,0,0,0,0,<..\HARDWARE\SPI\spi.c><spi.c> 
+OPTFFF 4,23,1,0,0,0,0,0,<..\HARDWARE\FLASH\flash.c><flash.c> 
+OPTFFF 4,24,1,285212672,0,0,0,0,<..\HARDWARE\ENC28J60\enc28j60.c><enc28j60.c> 
+OPTFFF 5,25,1,100663296,0,0,0,0,<..\USMART\usmart.c><usmart.c> 
+OPTFFF 5,26,1,603979776,0,0,0,0,<..\USMART\usmart_config.c><usmart_config.c> 
+OPTFFF 5,27,1,0,0,0,0,0,<..\USMART\usmart_str.c><usmart_str.c> 
+OPTFFF 6,28,1,150994944,0,0,0,0,<..\uIP-1.0\uip\psock.c><psock.c> 
+OPTFFF 6,29,1,218103808,0,0,0,0,<..\uIP-1.0\uip\timer.c><timer.c> 
+OPTFFF 6,30,1,0,0,0,0,0,<..\uIP-1.0\uip\uip.c><uip.c> 
+OPTFFF 6,31,1,0,0,0,0,0,<..\uIP-1.0\uip\uip_arp.c><uip_arp.c> 
+OPTFFF 6,32,1,1593835520,0,0,0,0,<..\uIP-1.0\uip\uip-fw.c><uip-fw.c> 
+OPTFFF 6,33,1,0,0,0,0,0,<..\uIP-1.0\uip\uiplib.c><uiplib.c> 
+OPTFFF 6,34,1,0,0,0,0,0,<..\uIP-1.0\uip\uip-neighbor.c><uip-neighbor.c> 
+OPTFFF 6,35,1,0,0,0,0,0,<..\uIP-1.0\uip\uip-split.c><uip-split.c> 
+OPTFFF 7,36,1,218103808,0,0,0,0,<..\uIP-APP\clock-arch.c><clock-arch.c> 
+OPTFFF 7,37,1,486539264,0,0,0,0,<..\uIP-APP\tapdev.c><tapdev.c> 
+OPTFFF 7,38,1,352321536,0,0,0,0,<..\uIP-APP\tcp_demo.c><tcp_demo.c> 
+OPTFFF 7,39,1,251658240,0,0,0,0,<..\uIP-APP\tcp_client_demo.c><tcp_client_demo.c> 
+OPTFFF 7,40,1,452984832,0,0,0,0,<..\uIP-APP\tcp_server_demo.c><tcp_server_demo.c> 
+OPTFFF 7,41,1,234881024,0,0,0,0,<..\uIP-1.0\apps\webserver\httpd.c><httpd.c> 
+OPTFFF 7,42,1,0,0,0,0,0,<..\uIP-1.0\apps\webserver\httpd-cgi.c><httpd-cgi.c> 
+OPTFFF 7,43,1,318767104,0,0,0,0,<..\uIP-1.0\apps\webserver\httpd-fs.c><httpd-fs.c> 
+OPTFFF 7,44,1,184549376,0,0,0,0,<..\uIP-1.0\apps\webserver\http-strings.c><http-strings.c> 
+
+ExtF <E:\正点原子\实验52 ENC28J60网络模块实验\HARDWARE\TPAD\tpad.h> 1,4,0,{ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+
+TARGOPT 1, (Target 1)
+ ADSCLK=8000000
+  OPTTT 1,1,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<..\OBJ\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 0
+  OPTDL (SARMCM3.DLL)()(DARMSTM.DLL)(-pSTM32F103ZE)(SARMCM3.DLL)()(TARMSTM.DLL)(-pSTM32F103ZE)
+  OPTDBG 49150,7,()()()()()()()()()() (Segger\JL2CM3.dll)()()()
+  OPTKEY 0,(DLGTARM)((1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(100=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(1011=-1,-1,-1,-1,0)(180=-1,-1,-1,-1,0)(120=-1,-1,-1,-1,0)(121=-1,-1,-1,-1,0)(122=-1,-1,-1,-1,0)(123=-1,-1,-1,-1,0)(124=-1,-1,-1,-1,0)(125=-1,-1,-1,-1,0)(126=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(240=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(200=-1,-1,-1,-1,0)(170=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(132=-1,-1,-1,-1,0)(133=-1,-1,-1,-1,0)(160=-1,-1,-1,-1,0)(161=-1,-1,-1,-1,0)(162=-1,-1,-1,-1,0)(210=-1,-1,-1,-1,0)(211=-1,-1,-1,-1,0)(220=-1,-1,-1,-1,0)(221=-1,-1,-1,-1,0)(230=-1,-1,-1,-1,0)(231=-1,-1,-1,-1,0)(232=-1,-1,-1,-1,0)(233=-1,-1,-1,-1,0)(150=-1,-1,-1,-1,0)(151=-1,-1,-1,-1,0))
+  OPTKEY 0,(DLGUARM)((105=-1,-1,-1,-1,0)(106=-1,-1,-1,-1,0)(107=-1,-1,-1,-1,0))
+  OPTKEY 0,(JL2CM3)(-U20100214 -O78 -S9 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -N00("ARM CoreSight SW-DP") -D00(1BA01477) -L00(4) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TRE0 -FO15 -FD20000000 -FC800 -FN1 -FF0STM32F10x_512 -FS08000000 -FL080000)
+  OPTKEY 0,(DLGDARM)((1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(100=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(1011=-1,-1,-1,-1,0)(180=-1,-1,-1,-1,0)(120=315,562,726,983,0)(121=-1,-1,-1,-1,0)(122=-1,-1,-1,-1,0)(123=-1,-1,-1,-1,0)(124=671,339,1082,760,0)(125=-1,-1,-1,-1,0)(126=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(240=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(200=-1,-1,-1,-1,0)(170=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(132=-1,-1,-1,-1,0)(133=-1,-1,-1,-1,0)(160=-1,-1,-1,-1,0)(161=-1,-1,-1,-1,0)(162=-1,-1,-1,-1,0)(210=-1,-1,-1,-1,0)(211=-1,-1,-1,-1,0)(220=-1,-1,-1,-1,0)(221=-1,-1,-1,-1,0)(230=-1,-1,-1,-1,0)(234=-1,-1,-1,-1,0)(231=-1,-1,-1,-1,0)(232=-1,-1,-1,-1,0)(233=-1,-1,-1,-1,0)(150=-1,-1,-1,-1,0)(151=-1,-1,-1,-1,0))
+  OPTKEY 0,(ARMDBGFLAGS)(-T0)
+  OPTBB 0,0,101,1,134219064,0,0,0,0,1,<test.c>()()
+  OPTBB 1,0,127,1,134219418,0,0,0,0,1,<test.c>()()
+  OPTBB 2,0,28,1,134249748,0,0,0,0,1,<tcp_client_demo.c>()()
+  OPTWA 0,1,(uip_len,0x0A)
+  OPTMM 1,8,(dbuf)
+  OPTDF 0x80
+  OPTLE <>
+  OPTLC <>
+EndOpt
+
